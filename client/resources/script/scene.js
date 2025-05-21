@@ -34,7 +34,6 @@ const loadingManager = new THREE.LoadingManager( () => {
     loadingScreen.classList.add( 'fade-out' );
 });
 
-
 // MIRROR
 let geometry
 geometry = new THREE.CircleGeometry( 5, 64 )
